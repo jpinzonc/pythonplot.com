@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Pre-push hook: Pulling changes remote..."
+git pull -X ours
